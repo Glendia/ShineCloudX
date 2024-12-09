@@ -1,0 +1,92 @@
+:root {
+    /*全局字体*/
+  --vp-font-family-base: 'PingFang SC', Arial,sans-serif; /* normal text font */
+  --vp-font-family-mono: 'PingFang SC', Arial,sans-serif;/* code font */
+  /*H1文字颜色*/
+	--vp-home-hero-name-color: transparent;
+	--vp-home-hero-name-background: -webkit-linear-gradient(120deg, #0261F0, #00DC82);
+      /* 图标背景 */
+      /* 设置线性渐变 */
+	--vp-home-hero-image-background-image: linear-gradient(
+        135deg,
+        #0361DF 10%,
+        #00DC82 100%
+      );
+      /* 设置模糊度 */
+	--vp-home-hero-image-filter: blur(100px);
+/*按钮*/
+    /* brand按钮 */
+      /* 正常 */
+	--vp-button-brand-text: #FFFFFF;
+ /* 文字色 */
+	--vp-button-brand-border: #0261F0;
+ /* 边框色 */
+	--vp-button-brand-bg: #0261F0;
+ /* 背景色 */
+      /* hover状态 */
+	--vp-button-brand-hover-text: #fff;
+	--vp-button-brand-hover-border: #0053C4;
+	--vp-button-brand-hover-bg: #0053C4;
+      /* active状态-点击 */
+	--vp-button-brand-hover-text: #FFFFFF;
+	--vp-button-brand-hover-border: #003D99;
+	--vp-button-brand-active-bg: #003D99;
+      /*sponsor按钮*/
+      /*正常状态*/
+	--vp-button-sponsor-border: transparent;
+	--vp-button-sponsor-text: #00DC82;
+	--vp-button-sponsor-bg: transparent;
+  /*hover状态*/
+	--vp-button-sponsor-hover-border: #00DC82;
+	--vp-button-sponsor-hover-text: transparent;
+	--vp-button-sponsor-hover-bg: #00DC82;
+  /*active状态*/
+	--vp-button-sponsor-active-border: transparent;
+	--vp-button-sponsor-active-text: #0E1528;
+	--vp-button-sponsor-active-bg: #00DC82;
+  /* 主题色 */
+	--vp-c-indigo-1: #0261F0;
+ /* 主题色 */
+	--vp-c-indigo-2: #0053C4;
+ /* 主题色-hover */
+	--vp-c-indigo-3: #003D99;
+}
+
+/**
+ * Component: Button
+ * -------------------------------------------------------------------------- */
+
+/*:root {
+
+  --vp-button-alt-border: transparent;
+  --vp-button-alt-text: var(--vp-c-text-1);
+  --vp-button-alt-bg: var(--vp-c-default-3);
+  --vp-button-alt-hover-border: transparent;
+  --vp-button-alt-hover-text: var(--vp-c-text-1);
+  --vp-button-alt-hover-bg: var(--vp-c-default-2);
+  --vp-button-alt-active-border: transparent;
+  --vp-button-alt-active-text: var(--vp-c-text-1);
+  --vp-button-alt-active-bg: var(--vp-c-default-1);
+
+}
+ * Component: Custom Block
+ * -------------------------------------------------------------------------- */
+/**
+ * Component: Button
+ * -------------------------------------------------------------------------- */
+
+/*:root {
+
+  --vp-button-alt-border: transparent;
+  --vp-button-alt-text: var(--vp-c-text-1);
+  --vp-button-alt-bg: var(--vp-c-default-3);
+  --vp-button-alt-hover-border: transparent;
+  --vp-button-alt-hover-text: var(--vp-c-text-1);
+  --vp-button-alt-hover-bg: var(--vp-c-default-2);
+  --vp-button-alt-active-border: transparent;
+  --vp-button-alt-active-text: var(--vp-c-text-1);
+  --vp-button-alt-active-bg: var(--vp-c-default-1);
+
+}
+ * Component: Custom Block
+ * -------------------------------------------------------------------------- */
